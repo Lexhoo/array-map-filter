@@ -43,6 +43,10 @@ En sortie: [
  */
 
 function getFoodCategories(foods) {
+  let mapa = foods.map(f => f.isVegetarian ? f.food + ' is suitable for vegetarians' : f.food  + ' is not suitable for vegetarians');
+
+
+return mapa;
 }
 
 

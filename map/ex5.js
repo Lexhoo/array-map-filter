@@ -13,6 +13,9 @@ Tableau renvoyé par multiplyOddIndices:
 */
 
 function multiplyOddIndices(numbers) {
-}
+   let mappa = numbers.map(x => numbers.indexOf(x) % 2 === 0 ? x : numbers.indexOf(x)* x);
+  return mappa;
+  }
+
 
 module.exports = multiplyOddIndices;

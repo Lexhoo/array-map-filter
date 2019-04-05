@@ -22,7 +22,10 @@ En sortie: [
  */
 
 function getStringsLength(strings) {
+  let mapa = strings.map(x => x + ' contains ' + x.length + ' characters');
+  return mapa;
 }
+
 
 // Si besoin, tu peux toujours visualiser le résultat avec console.log,
 // mais alors, il faut alors lancer l'exercice avec node map/ex1
